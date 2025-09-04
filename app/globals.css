@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --bg: #0b1220; }
-html, body { height: 100%; }
-body { @apply bg-slate-900 text-slate-100; }
-.container { @apply max-w-7xl mx-auto px-4; }
+body {
+  @apply bg-gray-50 text-gray-900;
+}
